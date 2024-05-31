@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moon Phases</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Moon Phases</h1>
+<div class="controls">
+  <label for="year-select">Select Year:</label>
+  <select id="year-select">
+    <option value="2020">2020</option>
+    <option value="2021">2021</option>
+    <option value="2022">2022</option>
+    <option value="2023">2023</option>
+    <option value="2024" selected>2024</option>
+    <option value="2025">2025</option>
+    <option value="2026">2026</option>
+    <option value="2027">2027</option>
+    <option value="2028">2028</option>
+  </select>
+
+  <label for="phase-select">Select Starting Phase:</label>
+  <select id="phase-select">
+    <option value="NEW">New 🌑</option>
+    <option value="WAXING_CRESCENT">Waxing Crescent 🌒</option>
+    <option value="FIRST_QUARTER">First Quarter 🌓</option>
+    <option value="WAXING_GIBBOUS">Waxing Gibbous 🌔</option>
+    <option value="FULL" selected>Full 🌕</option>
+    <option value="WANING_GIBBOUS">Waning Gibbous 🌖</option>
+    <option value="LAST_QUARTER">Last Quarter 🌗</option>
+    <option value="WANING_CRESCENT">Waning Crescent 🌘</option>
+  </select>
+</div>
+<div id="moon-phase-list"></div>
+<script src="bundle.js"></script>
+</body>
+</html>

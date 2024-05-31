@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #003366;
+}
+
+.controls {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+select {
+  padding: 5px;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+#moon-phase-list {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.moon-phase-row {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  gap: 11px;
+}
+
+.moon-phase-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  width: 150px;
+  min-width: 150px;
+  box-sizing: border-box;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.moon-phase-item.weekend {
+  background-color: #ffe6e6;
+}
+
+.moon-phase-date {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.moon-phase-day {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.moon-phase-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.moon-phase-emoji {
+  font-size: 1.5em;
+  margin-top: 5px;
+}
